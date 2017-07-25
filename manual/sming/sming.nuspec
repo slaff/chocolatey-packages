@@ -2,13 +2,13 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>sming</id>
-    <version>2.1.0</version>
+    <version>3.3.0</version>
     <title>Sming Framework</title>
     <authors>Sming</authors>
-    <owners>kireevco</owners>
+    <owners>SmingHub</owners>
     <copyright>Sming</copyright>
-    <licenseUrl>https://github.com/anakod/Sming/blob/master/LICENSE</licenseUrl>
-    <projectUrl>https://github.com/anakod/Sming</projectUrl>
+    <licenseUrl>https://github.com/SmingHub/Sming/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/SmingHub/Sming</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Sming - Open Source framework for high efficiency WiFi SoC ESP8266 native development with C++ language.</description>
     <summary></summary>

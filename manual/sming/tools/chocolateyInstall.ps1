@@ -45,4 +45,5 @@ mingw-install "msys-mktemp"
 mingw-install "msys-patch"
 mingw-install "msys-libtool"
 mingw-install "msys-make"
+mingw-install "msys-findutils"
 Update-SessionEnvironment
