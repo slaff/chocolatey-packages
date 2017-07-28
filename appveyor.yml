@@ -15,8 +15,11 @@ environment:
 
 build_script:
   - cd %APPVEYOR_BUILD_FOLDER%
-#  - cd manual/sming.core
-#  - choco pack sming.core.nuspec
-#  - nuget.exe push *.nupkg %APIKEY% -source https://www.myget.org/F/sming
   - bash deploy.sh
-#  - for /f %%i in ('git diff-tree --no-commit-id --name-only -r HEAD') do echo %%i
+
+notifications:
+  - provider: Webhook
+    url: https://webhooks.gitter.im/e/b532f6f58905ff63421c
+    on_build_success: false
+    on_build_failure: true
+    on_build_status_changed: true
