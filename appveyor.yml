@@ -11,7 +11,7 @@ environment:
 #   - src/  # preserve "packages" directory in the root of build folder but will reset it if packages.config is modified
 
 #install:
-#  - choco sources add -name kireevco -source 'https://www.myget.org/F/kireevco-chocolatey/'
+#  - choco sources add -name sming -source 'https://www.myget.org/F/kireevco-chocolatey/'
 
 build_script:
   - cd %APPVEYOR_BUILD_FOLDER%
@@ -20,6 +20,6 @@ build_script:
 notifications:
   - provider: Webhook
     url: https://webhooks.gitter.im/e/b532f6f58905ff63421c
-    on_build_success: false
-    on_build_failure: true
+    on_build_success: true
+    on_build_failure: false
     on_build_status_changed: true
