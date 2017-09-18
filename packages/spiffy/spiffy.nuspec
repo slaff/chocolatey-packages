@@ -5,10 +5,10 @@
     <version>1.0.4</version>
     <title>Spiffy Tool</title>
     <authors>xlfe</authors>
-    <owners>kireevco</owners>
+    <owners>SmingHub</owners>
     <copyright>xlfe</copyright>
-    <licenseUrl>https://github.com/xlfe/spiffy</licenseUrl>
-    <projectUrl>https://github.com/xlfe/spiffy</projectUrl>
+    <licenseUrl>https://github.com/pellepl/spiffs</licenseUrl>
+    <projectUrl>https://github.com/pellepl/spiffs</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Spiffy builds a binary spiffs image for you to write_flash to a esp8266 runing nodemcu so you can get all the files onto your cool IoT device in one fell swoop..</description>
     <summary>Spiffy builds a binary spiffs image for you to write_flash to a esp8266 runing nodemcu so you can get all the files onto your cool IoT device in one fell swoop..</summary>
