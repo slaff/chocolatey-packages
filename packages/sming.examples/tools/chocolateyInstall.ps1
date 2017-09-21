@@ -1,9 +1,8 @@
 Update-SessionEnvironment
 $packageName = 'sming.examples'
 $packageVersion = '3.3.0'
-$url="https://github.com/SmingHub/Sming/archive/${packageVersion}.zip"
 $binRoot = Get-BinRoot
-$installDir = Join-Path "$binRoot" 'sming.examples'
+$installDir = Join-Path "$binRoot" 'sming\samples'
 $eclipseWorkspace = Join-Path $env:HOMEPATH "sming.examples"
 
 function Install-ChocolateyDesktopLinkWithName {
@@ -57,10 +56,6 @@ if (Get-Command "eclipse.exe" -ErrorAction SilentlyContinue) {
     $eclipseExe = $(gcm "eclipse.exe" | Select-Object -ExpandProperty Definition)
     $eclipseExeC = $(gcm "eclipsec.exe" | Select-Object -ExpandProperty Definition)
     
-    Install-ChocolateyZipPackage "$packageName" $url $installDir
-    Copy-Item $installDir/Sming-$packageVersion/samples $installDir/ -Force -Recurse
-    Remove-Item $installDir/Sming-$packageVersion -force -Recurse
-
     Write-Host "Importing Examples"
     Start-ChocolateyProcessAsAdmin "-nosplash -data `"$eclipseWorkspace`" -application org.eclipse.cdt.managedbuilder.core.headlessbuild -importAll $installDir" "`"$eclipseExeC`""
 
