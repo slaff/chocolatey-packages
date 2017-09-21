@@ -1,8 +1,8 @@
 
 $packageName = 'sming'
 $packageVersion = '3.3.0'
-$url="https://github.com/anakod/Sming/archive/${packageVersion}.zip"
-$binRoot = Get-BinRoot
+$url="https://github.com/SmingHub/Sming/archive/${packageVersion}.zip"
+$binRoot = Get-ToolsLocation
 $installDir = Join-Path "$binRoot" 'sming'
 
 Install-ChocolateyZipPackage "$packageName" $url $installDir

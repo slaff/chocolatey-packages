@@ -1,7 +1,6 @@
 Update-SessionEnvironment
 $packageName = 'sming.examples'
-$packageVersion = '3.3.0'
-$binRoot = Get-BinRoot
+$binRoot = Get-ToolsLocation 
 $installDir = Join-Path "$binRoot" 'sming\samples'
 $eclipseWorkspace = Join-Path $env:HOMEPATH "sming.examples"
 

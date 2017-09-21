@@ -1,5 +1,5 @@
 $packageName = 'sming'
-$binRoot = Get-BinRoot
+$binRoot = Get-ToolsLocation
 $installDir = Join-Path "$binRoot" 'sming'
 $mingwPath = "$binRoot\mingw64"
 $mingw_get = Join-Path "$binRoot" "/mingw64/bin/mingw-get.exe"
