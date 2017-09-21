@@ -1,6 +1,6 @@
 Update-SessionEnvironment
 $packageName = 'sming.examples'
-$packageVersion = '2.1.0'
+$packageVersion = '3.3.0'
 $url="https://github.com/SmingHub/Sming/archive/${packageVersion}.zip"
 $binRoot = Get-BinRoot
 $installDir = Join-Path "$binRoot" 'sming.examples'
@@ -73,5 +73,5 @@ if (Get-Command "eclipse.exe" -ErrorAction SilentlyContinue) {
     **There are few things to try:`n`
     choco install eclipse-cpp`
     choco update eclipse-cpp`
-    choco install eclipse-cpp -source 'https://www.myget.org/F/kireevco-chocolatey/"
+    choco install eclipse-cpp -source 'https://www.myget.org/F/sming/"
 }
