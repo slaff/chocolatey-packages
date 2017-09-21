@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>sming</id>
-    <version>3.3.0</version>
+    <version>3.3.0.2</version>
     <title>Sming Framework</title>
     <authors>Sming</authors>
     <owners>SmingHub</owners>
@@ -14,7 +14,6 @@
     <summary></summary>
     <tags>Sming, Arduino, ESP8266, SDK</tags>
     <dependencies>
-      <dependency id="eclipse-cpp" />
       <dependency id="esp8266-udk" />
       <dependency id="mingw-get"/>
       <dependency id="sming.core"/>
