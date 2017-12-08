@@ -1,6 +1,6 @@
 
 $packageName = 'sming'
-$packageVersion = '3.3.0'
+$packageVersion = '3.5.0'
 $url="https://github.com/SmingHub/Sming/archive/${packageVersion}.zip"
 $binRoot = Get-ToolsLocation
 $installDir = Join-Path "$binRoot" 'sming'

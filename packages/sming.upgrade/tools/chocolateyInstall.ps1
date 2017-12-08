@@ -1,6 +1,6 @@
 $packageName = 'sming.upgrade'
 $packageVersion = '1.1.0'
-$binRoot = Get-BinRoot
+$binRoot = Get-ToolsLocation
 
 #### SDK Symlink ####
 # We need this to make sure Windows, MacOS, Linux users have same experience
