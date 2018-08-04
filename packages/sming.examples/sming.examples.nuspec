@@ -2,8 +2,8 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>sming.examples</id>
-    <version>3.5.0</version>
-    <title>Sming Framework Examples</title> 
+    <version>3.6.1.2</version>
+    <title>Sming Framework Examples</title>
     <authors>Sming</authors>
     <owners>SmingHub</owners>
     <copyright>Sming</copyright>
@@ -11,11 +11,11 @@
     <projectUrl>https://github.com/SmingHub/Sming</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Sming - Open Source framework for high efficiency WiFi SoC ESP8266 native development with C++ language.</description>
-    <summary></summary>
-    <tags>Sming, Arduino, ESP8266, SDK</tags>    
-    <dependencies>      
+    <summary/>
+    <tags>Sming, Arduino, ESP8266, SDK</tags>
+    <dependencies>
       <dependency id="sming"/>
-      <dependency id="eclipse-cpp" />
+      <dependency id="eclipse-cpp"/>
     </dependencies>
   </metadata>
 </package>
