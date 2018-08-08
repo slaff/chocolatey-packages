@@ -1,5 +1,5 @@
 $packageName = 'mingw-get'
-$url='https://sourceforge.net/projects/mingw/files/Installer/mingw-get/mingw-get-0.6.2-beta-20131004-1/mingw-get-0.6.2-mingw32-beta-20131004-1-bin.zip/download'
+$url='https://raw.githubusercontent.com/slaff/chocolatey-packages/master/packages/mingw-get/data/mingw-get-0.6.2-mingw32-beta-20131004-1-bin.zip'
 $binRoot = Get-BinRoot
 $installDir = Join-Path "$binRoot" 'mingw64'
 Install-ChocolateyPath $installDir 'Machine'
