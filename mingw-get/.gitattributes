@@ -1,0 +1,6 @@
+# Detect text files automatically
+* text=auto
+
+# Force CRLF line ending on these files
+*.ps1 eol=crlf
+*.nuspec eol=crlf

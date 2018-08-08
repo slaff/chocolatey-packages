@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>mingw-get</id>
+    <title>mingw-get</title>
+    <version>1.0.3.20150411</version>
+    <authors>MingW Maintainers</authors>
+    <owners>Robert Coleman</owners>
+    <summary>mingw-get</summary>
+    <description>A command-line installer (mingw-get) for MinGW and MSYS deployment on MS-Windows. Package Source/Issues: https://github.com/rjocoleman/chocolatey-mingw-get</description>
+    <projectUrl>http://mingw.org</projectUrl>
+    <tags>mingw-get mingw gnu unix</tags>
+    <copyright />
+    <licenseUrl>http://www.mingw.org/license</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>http://sourceforge.net/images/potm-2005-09_logo_mingw.gif</iconUrl>
+	  <releaseNotes>
+      Change chocolatey to use zip helper.
+    </releaseNotes>
+    <dependencies>      
+      <dependency id="mingw" />
+    </dependencies>
+  </metadata>  
+</package>
