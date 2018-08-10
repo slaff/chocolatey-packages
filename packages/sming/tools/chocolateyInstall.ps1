@@ -16,7 +16,7 @@ Write-Debug $env:Path
 Write-Debug "Adding mingw & msys to the path"
 Install-ChocolateyPath "${mingwPath}\bin;${mingwPath}\msys\1.0\bin" "Machine"
 
-Write-Host "Installing / updading required mingw packages"
+Write-Host "Installing / upgrading required MingW packages"
 mingw-install "mingw32-base"
 mingw-install "mingw32-mgwport"
 mingw-install "mingw32-pdcurses"

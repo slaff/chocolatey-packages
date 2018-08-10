@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>sming</id>
-    <version>3.6.1.3</version>
+    <version>3.6.1.4</version>
     <title>Sming Framework</title>
     <authors>Sming</authors>
     <owners>SmingHub</owners>
@@ -17,6 +17,7 @@
       <dependency id="esp8266-udk"/>
       <dependency id="mingw-get"/>
       <dependency id="sming.core"/>
+      <dependency id="python"/>
     </dependencies>
   </metadata>
 </package>
