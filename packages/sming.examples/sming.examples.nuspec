@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>sming.examples</id>
-    <version>3.6.1.2</version>
+    <version>3.7.0</version>
     <title>Sming Framework Examples</title>
     <authors>Sming</authors>
     <owners>SmingHub</owners>
