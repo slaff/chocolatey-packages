@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>sming.upgrade</id>
-    <version>3.7.0</version>
+    <version>3.7.0.1</version>
     <title>Sming Framework Upgrade</title>
     <authors>Sming</authors>
     <owners>kireevco</owners>
