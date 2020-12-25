@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>esp8266-eqt</id>
+    <title>ESP Quick Toolchain for ESP8266</title>
+    <version>1.0</version>
+    <authors>-</authors>
+    <description>Installs pre-packaged toolchain for Sming Esp8266 development</description>
+    <projectUrl>https://github.com/earlephilhower/esp-quick-toolchain</projectUrl>
+    <tags>Sming esp8266</tags>
+  </metadata>  
+</package>
