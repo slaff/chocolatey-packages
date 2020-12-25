@@ -14,8 +14,8 @@
     <summary/>
     <tags>Sming, Arduino, ESP8266, SDK</tags>
     <dependencies>
-      <dependency id="esp8266-udk"/>
-      <dependency id="mingw-get"/>
+      <dependency id="esp8266-eqt"/>
+      <dependency id="mingw32"/>
       <dependency id="sming.core"/>
       <dependency id="python"/>
     </dependencies>
