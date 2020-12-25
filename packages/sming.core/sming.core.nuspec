@@ -13,5 +13,8 @@
     <description>Sming - Open Source framework for high efficiency WiFi SoC ESP8266 native development with C++ language.</description>
     <summary/>
     <tags>Sming, Arduino, ESP8266, SDK</tags>
+    <dependencies>
+      <dependency id="git"/>
+    </dependencies>
   </metadata>
 </package>

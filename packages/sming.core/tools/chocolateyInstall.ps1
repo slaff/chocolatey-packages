@@ -1,15 +1,13 @@
 
 $packageName = $env:ChocolateyPackageName
 $packageVersion = $env:ChocolateyPackageVersion 
-$url="https://github.com/SmingHub/Sming/archive/${packageVersion}.zip"
-$binRoot = Get-ToolsLocation
-$installDir = Join-Path "$binRoot" 'sming'
+$url="https://github.com/SmingHub/Sming"
+$toolsRoot = Get-ToolsLocation
 
-Install-ChocolateyZipPackage "$packageName" $url $installDir
-Copy-Item $installDir/Sming-$packageVersion/* $installDir/ -Force -Recurse
-Remove-Item $installDir/Sming-$packageVersion -force -Recurse
+chdir "$toolsRoot"
+git clone -b master $url
 
-Install-ChocolateyEnvironmentVariable "SMING_HOME" "$installDir\Sming"
-Write-Debug "Set SMING_HOME to $installDir\Sming"
+Install-ChocolateyEnvironmentVariable "SMING_HOME" "$toolsRoot\sming\Sming"
+Write-Debug "Set SMING_HOME to $toolsRoot\Sming\Sming"
 
 Update-SessionEnvironment
