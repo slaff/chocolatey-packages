@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>mingw32</id>
+    <title>MinGW32</title>
+    <version>1.0</version>
+    <authors>-</authors>
+    <description>Installs pre-packaged MinGW version for Sming development</description>
+    <projectUrl>https://mingw.org</projectUrl>
+    <tags>Sming mingw</tags>
+  </metadata>  
+</package>
