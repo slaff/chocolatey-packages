@@ -14,10 +14,12 @@
     <summary/>
     <tags>Sming, Arduino, ESP8266, SDK</tags>
     <dependencies>
-      <dependency id="esp8266-eqt"/>
-      <dependency id="mingw32"/>
-      <dependency id="sming.core"/>
+      <dependency id="git"/>
       <dependency id="python"/>
+      <dependency id="cmake"/>
+      <dependency id="mingw32"/>
+      <dependency id="esp8266-eqt"/>
+      <dependency id="sming.core"/>
     </dependencies>
   </metadata>
 </package>
