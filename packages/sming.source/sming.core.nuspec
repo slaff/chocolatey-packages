@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
-    <id>sming</id>
+    <id>sming.source</id>
     <version>4.1.1</version>
     <title>Sming Framework</title>
     <authors>Sming</authors>
@@ -15,11 +15,6 @@
     <tags>Sming, Arduino, ESP8266, SDK</tags>
     <dependencies>
       <dependency id="git"/>
-      <dependency id="python"/>
-      <dependency id="cmake"/>
-      <dependency id="mingw32"/>
-      <dependency id="esp8266-eqt"/>
-      <dependency id="sming.source"/>
     </dependencies>
   </metadata>
 </package>
