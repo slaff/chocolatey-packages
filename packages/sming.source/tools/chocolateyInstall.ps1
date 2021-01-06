@@ -1,13 +1,15 @@
 
-$packageName = $env:ChocolateyPackageName
-$packageVersion = $env:ChocolateyPackageVersion 
 $url="https://github.com/SmingHub/Sming"
 $toolsRoot = Get-ToolsLocation
+$smingRoot = "$toolsRoot\Sming"
 
-chdir "$toolsRoot"
-git clone -b master $url
+if (Test-Path "$smingRoot") {
+  throw "'$smingRoot' already exists. Please remove and try again."
+}
 
-Install-ChocolateyEnvironmentVariable "SMING_HOME" "$toolsRoot\sming\Sming" 'Machine'
-Write-Debug "Set SMING_HOME to $toolsRoot\Sming\Sming"
+git clone -b master $url "$smingRoot"
+
+Install-ChocolateyEnvironmentVariable "SMING_HOME" "$smingRoot\Sming" 'Machine'
+Write-Debug "Set SMING_HOME to $smingRoot\Sming"
 
 Update-SessionEnvironment
