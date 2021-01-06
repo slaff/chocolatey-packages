@@ -15,7 +15,7 @@
     <tags>Sming, Arduino, ESP8266, SDK</tags>
     <dependencies>
       <dependency id="git"/>
-      <dependency id="python"/>
+      <dependency id="python3" version="3.9.1"/>
       <dependency id="cmake"/>
       <dependency id="mingw32"/>
       <dependency id="esp8266-eqt"/>
