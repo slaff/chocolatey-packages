@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>sming.esp32</id>
+    <title>Sming support for ESP32</title>
+    <version>1.0</version>
+    <authors>-</authors>
+    <description>Installs SDK and toolchains for Sming Esp32 development</description>
+    <projectUrl>https://github.com/espressif/esp-idf</projectUrl>
+    <tags>Sming esp32</tags>
+    <dependencies>
+      <dependency id="git"/>
+      <dependency id="python3" version="[3.9.1,3.10]"/>
+      <dependency id="cmake"/>
+      <dependency id="ninja"/>
+      <dependency id="7zip"/>
+    </dependencies>
+  </metadata>
+</package>
