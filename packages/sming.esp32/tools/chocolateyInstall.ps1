@@ -2,11 +2,8 @@
 # Chocolatey install script for ESP-IDF and ESP32 tools for use with Sming
 #
 
-$smingTools = 'https://github.com/SmingHub/SmingTools/releases/download/1.0/'
-$espTools = "esp32-tools-windows-4.1.7z"
-
 $toolBase = Get-ToolsLocation
-$idfPath = "$toolbase\esp-idf\v4.1"
+$idfPath = "$toolbase\esp-idf-4.3"
 $idfToolsPath = "$toolbase\esp32"
 
 if ($env:IDF_PATH -or $env:IDF_TOOLS_PATH) {
@@ -19,12 +16,7 @@ if ( -not ($env:PYTHON) ) {
 
 $pythonPath = Split-Path "$env:PYTHON"
 
-git clone -b release/v4.1 https://github.com/espressif/esp-idf.git "$idfPath"
-
-# Espressif downloads very slow, fetch from SmingTools
-mkdir "$idfToolsPath"
-Invoke-WebRequest -Uri "$smingTools/$espTools" -outFile "$espTools" -UseBasicParsing
-7z -o"$idfToolsPath\dist" x "$espTools"
+git clone -b sming/release/v4.3 https://github.com/mikee47/esp-idf.git "$idfPath"
 
 Install-ChocolateyEnvironmentVariable "IDF_PATH" "$idfPath" 'Machine'
 Install-ChocolateyEnvironmentVariable "IDF_TOOLS_PATH" "$idfToolsPath" 'Machine'
