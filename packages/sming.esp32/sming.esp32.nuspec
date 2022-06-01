@@ -3,7 +3,7 @@
   <metadata>
     <id>sming.esp32</id>
     <title>Sming support for ESP32</title>
-    <version>1.0</version>
+    <version>1.1</version>
     <authors>-</authors>
     <description>Installs SDK and toolchains for Sming Esp32 development</description>
     <projectUrl>https://github.com/espressif/esp-idf</projectUrl>
